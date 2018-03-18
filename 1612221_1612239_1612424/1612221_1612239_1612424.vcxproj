@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Qint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Qint.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{23CE6E7E-A79A-4EF3-A218-56B34876F286}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -141,8 +148,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
